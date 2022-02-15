@@ -1,8 +1,8 @@
 @import '../../styles/variables';
 
 .message-context-container {
+    height: 250px;
     overflow: auto;
-
     >header {
         align-items: center;
         border-bottom: 2px solid $foreground;
