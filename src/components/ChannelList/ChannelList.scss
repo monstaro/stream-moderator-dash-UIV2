@@ -4,6 +4,7 @@
     overflow: auto;
     position: relative;
 
+
     >.search-container {
         align-items: center;
         display: flex;
@@ -60,6 +61,20 @@
                     color: $primary;
                 }
             }
+            >.flagged-count-circle {
+                height: 30px;
+                width: 30px;
+                background-color: red;
+                border-radius: 50%;
+                display: flex;
+                >.flagged-count {
+                    text-align: center;
+                    color: white;
+                    font-weight: bold;
+                    margin: auto;
+                }
+            }
+            
         }
     }
 
