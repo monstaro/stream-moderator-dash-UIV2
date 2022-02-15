@@ -11,7 +11,7 @@
 
         >input {
             background-color: $background;
-            border: 2px solid $foreground;
+            border: 1px solid $foreground;
             border-radius: $border-radius;
             border-bottom-right-radius: 0;
             border-top-right-radius: 0;
@@ -20,7 +20,7 @@
         }
         >.clear-search-button {
             background: $failure;
-            border: 2px solid $foreground;
+            border: 1px solid $foreground;
             border-left: none;
             border-bottom-right-radius: $border-radius;
             border-top-right-radius: $border-radius;
