@@ -30,8 +30,8 @@
                 text-align: center;
 
                 &.active {
-                    background: $gradient;
-                    border: 2px solid $foreground;
+                    background: #ced8f2
+                    // border: 1px solid $foreground;
                 }
             }
         }
