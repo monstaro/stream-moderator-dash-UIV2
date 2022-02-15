@@ -28,7 +28,7 @@ main {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    // grid-template-rows: repeat(10, 1fr);
     height: 100vh;
     padding: 1rem;
 
