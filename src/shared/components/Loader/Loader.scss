@@ -4,11 +4,11 @@
     align-items: center;
     display: flex;
     >.loader {
-        animation: rotate 3s infinite;
+        // animation: rotate 3s infinite;
         background: $primary;
         border-radius: .5rem;
-        height: 2rem;
-        width: 2rem;
+        height: 1rem;
+        width: 1rem;
     }
     >p {
         margin-left: 1rem;

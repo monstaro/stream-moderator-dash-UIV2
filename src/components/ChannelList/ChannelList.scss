@@ -16,18 +16,18 @@
             border-radius: $border-radius;
             border-bottom-right-radius: 0;
             border-top-right-radius: 0;
-            height: 3rem;
+            height: 2.5rem;
             width: 100%;
         }
         >.clear-search-button {
-            background: $failure;
+            background: $primary;
             border: 1px solid $foreground;
             border-left: none;
             border-bottom-right-radius: $border-radius;
             border-top-right-radius: $border-radius;
             color: $background;
             cursor: pointer;
-            height: 3rem;
+            height: 2.5rem;
             width: 5rem;
 
             &:hover {
@@ -45,7 +45,7 @@
             align-items: center;
             border-bottom: 1px solid $foreground;
             display: flex;
-            height: 3rem;
+            height: 2.5rem;
             justify-content: space-between;
             margin-top: 1rem;
             padding: .5rem;
@@ -62,16 +62,16 @@
                 }
             }
             >.flagged-count-circle {
-                height: 30px;
-                width: 30px;
+                height: 25px;
+                width: 25px;
                 background-color: red;
                 border-radius: 50%;
                 display: flex;
                 >.flagged-count {
                     text-align: center;
                     color: white;
-                    font-weight: bold;
                     margin: auto;
+                    font-size: 12px;
                 }
             }
             
