@@ -47,7 +47,7 @@ export const FlaggedMessages = (props) => {
                         <div onClick={() => selectMessage(item)} className={item.selected ? 'selected message-select' : 'message-select'}></div>
                         <div onClick={() => setActiveMessage(item)} className={item.active ? 'active message-container' : 'message-container'}>
                             <div className="message-details-container">
-                                <p>{item.message.user.id}</p>
+                                <p>User: {item.message.user.id}</p>
                             </div>
                             <div className="message-contents-container">
                                 <p>{item.message.text}</p>
